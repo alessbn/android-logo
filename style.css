@@ -3,10 +3,10 @@
 	padding: 0;
 }
 
-*, *:before, *:after{
+*, *:before, *:after {
 	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 a{
@@ -49,6 +49,35 @@ h1{
 
 	-webkit-border-top-right-radius: 400px;
 	-webkit-border-top-left-radius: 400px;
+}
+
+/*eye left = :before
+  eye right = :after*/
+
+.head:before {
+	content: '';
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background-color: #F4F7F5;
+	left: 80px;
+	top: 66px;
+}
+
+.head:after {
+	content: '';
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background-color: #F4F7F5;
+	right: 80px;
+	top: 66px;
 }
 
 .body {
