@@ -29,7 +29,7 @@ h1{
 	width: 334px;
 	height: 451px;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 90px;
 	position: relative;
 }
 
@@ -78,6 +78,35 @@ h1{
 	background-color: #F4F7F5;
 	right: 80px;
 	top: 66px;
+}
+
+.left-antenna, .right-antenna {
+	position: absolute;
+	width: 9px;
+	height: 80px;
+
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	top: -20px;
+}
+
+.left-antenna{
+	left: 60px;
+	-webkit-transform: rotate(-30deg);
+	   -moz-transform: rotate(-30deg);
+	    -ms-transform: rotate(-30deg);
+	     -o-transform: rotate(-30deg);
+	        transform: rotate(-30deg);
+}
+
+.right-antenna{
+	right: 60px;
+	-webkit-transform: rotate(30deg);
+	   -moz-transform: rotate(30deg);
+	    -ms-transform: rotate(30deg);
+	     -o-transform: rotate(30deg);
+	        transform: rotate(30deg);
 }
 
 .body {
