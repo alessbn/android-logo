@@ -123,3 +123,13 @@ h1{
 	-webkit-border-bottom-right-radius: 50px;
 	-webkit-border-bottom-left-radius: 50px;
 }
+
+.members {
+	width: 77px;
+	height: 233px;
+	position: absolute;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	   -moz-border-radius: 100px;
+	     -o-border-radius: 100px;
+}
