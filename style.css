@@ -133,3 +133,15 @@ h1{
 	   -moz-border-radius: 100px;
 	     -o-border-radius: 100px;
 }
+
+.left-arms, .right-arms{
+	top: 0;
+}
+
+.left-arms{
+	left: -95px;
+}
+
+.right-arms{
+	right: -95px;
+}
