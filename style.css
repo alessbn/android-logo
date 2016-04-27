@@ -145,3 +145,15 @@ h1{
 .right-arms{
 	right: -95px;
 }
+
+.left-legs, .right-legs{
+	bottom: -138px;
+}
+
+.left-legs{
+	left: 70px;
+}
+
+.right-legs{
+	right: 70px;
+}
