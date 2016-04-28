@@ -28,18 +28,20 @@ h1{
 .circle{
 	background-color: blue;
 	width: 624px;
-	height: 451px;
+	height: 651px;
 	margin: 0 auto;
-	margin-top: 90px;
+	margin-top: 50px;
 	position: relative;
+	border-radius: 50%;
 }
 
 .android{
 	width: 334px;
 	height: 451px;
 	margin: 0 auto;
-	margin-top: 90px;
-	position: relative;
+	margin-top: 50px;
+	margin-left: 145px;
+	position: absolute;
 }
 
 .android div{
