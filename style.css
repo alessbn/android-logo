@@ -25,6 +25,15 @@ h1{
 	color: #32363a;
 }
 
+.circle{
+	background-color: blue;
+	width: 624px;
+	height: 451px;
+	margin: 0 auto;
+	margin-top: 90px;
+	position: relative;
+}
+
 .android{
 	width: 334px;
 	height: 451px;
