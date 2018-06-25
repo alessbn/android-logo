@@ -1,9 +1,9 @@
 # Android logo
-Android logo made in CSS3  
-[Live demo](https://alessbn.github.io/android-logo/index.html)
+Android logo made purely with CSS3  
+[Live demo](https://alessbn.github.io/android-logo/)
 
-## Skills covered
-CSS Box Model
+## Skills gained
+* CSS Box Model
 
 ## Screenshot
-![Android logo preview](https://raw.githubusercontent.com/alessbn/android-logo/master/android-logo.png)
+![Screenshot](https://raw.githubusercontent.com/alessbn/android-logo/master/android-logo.png)
